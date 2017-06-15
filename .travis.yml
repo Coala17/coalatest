@@ -3,9 +3,3 @@ language: c++
 script: 
 - gcc -o test test.c
 - ./test
-
-deploy:
-  provider: pages
-  skip_cleanup: true
-  on:
-    branch: master
